@@ -1,432 +1,642 @@
 /**
  * Site Configuration
  * This file contains all configurable content for the website
- * Last updated: 2025-09-05T06:30:10.202Z
+ * Last updated: 2026-01-19T14:59:11.006Z
  */
 
 // contactInfo configuration
 export const contactInfo = {
-    agent: {
-      name: "Arslan Ahmed",
-      photo: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757711141211-Headshot%20Arslan%20Andrew.jpg",
-      phone: "(416) 655-4850",
-      email: "arslan@salesgenius.co",
-      company: "Executive Homes Realty Inc",
-      license: "REALTOR®",
-      repo: "New-Listing-886",
-      companyAddress: "290 Traders Blvd E unit 1, Mississauaga, L4Z, 1W7, Canada",
-      companyLogo: "https://www.executivehomesrealty.ca/files/themeManager/9607/theme28/EHRB%20Transparent.png"
-    },
-    agent2: {
-      name: "Rick Sandhu",
-      photo: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757711141211-Headshot%20Arslan%20Andrew.jpg",
-      phone: "(416) 655-4850",
-      email: "rick@salesgenius.co",
-      company: "Sandhu Realty Inc",
-      license: "REALTOR®",
-    },
-    social: {
-      instagram: "https://instagram.com/executivehomesrealtyinc",
-      facebook: "https://facebook.com/executivehomesrealtyinc",
-      linkedin: "https://linkedin.com/company/executivehomesrealtyinc"
-    },
-  };
+  agent: {
+    name: "Joseph Bitton",
+    photo: "https://app.salesgenius.co/api/user-images/056f1b9a-6e97-4cee-89c3-7bd9f9397ed3?v=06df1d5eab706552fcdffd5e1a78de0f66691b4a0c6513a22035b4b6d4bd2fef",
+    phone: "4168018600",
+    email: "josephbitton1@gmail.com",
+    company: "Real Broker Ontario Ltd.",
+    companyLogo: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768333675342-w1200_original_13dc3970-c036-43e0-8228-e0a6fb4270fa.png",
+    companyAddress: "130 King ST W Unit 1900B Toronto, Ontario, M5X1E3",
+    license: "REALTOR®",
+    repo: "New-Listing-478"
+  },
+  social: {
+    instagram: "https://www.instagram.com/josephbitton_realestate/",
+    facebook: "https://www.facebook.com/torontorealestate4u/",
+    linkedin: ""
+  }
+};
 
 // galleryImages configuration
 export const galleryImages = [
-    {
-      id: 1,
-      src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004589506-2912-80 John St-01.jpg",
-      alt: "Open concept living room with floor-to-ceiling windows at 80 John St #2912",
-      category: "interior"
-    },
-    {
-      id: 2,
-      src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004602781-2912-80 John St-04.jpg",
-      alt: "Living and dining area with southeast light at 80 John St #2912",
-      category: "interior"
-    },
-    {
-      id: 3,
-      src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004609515-2912-80 John St-14.jpg",
-      alt: "Gourmet kitchen with enlarged island and built-in power at 80 John St #2912",
-      category: "kitchen"
-    },
-    {
-      id: 4,
-      src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004627198-2912-80 John St-20.jpg",
-      alt: "Primary bedroom with skyline outlook at 80 John St #2912",
-      category: "bedroom"
-    },
-    {
-      id: 5,
-      src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004643105-2912-80 John St-11.jpg",
-      alt: "Luxury bathroom with floor-to-ceiling tile and modern fixtures at 80 John St #2912",
-      category: "bathroom"
-    }
-  ];
+  {
+    id: 1,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345703648-001_0_mc3yc00gq9wx665lup.jpg",
+    alt: "Property image 1",
+    category: ""
+  },
+  {
+    id: 2,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345704688-002_14.jpeg",
+    alt: "Property image 2",
+    category: ""
+  },
+  {
+    id: 3,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345705945-003_15.jpeg",
+    alt: "Property image 3",
+    category: ""
+  },
+  {
+    id: 4,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345707061-004_01TT39.jpeg",
+    alt: "Property image 4",
+    category: ""
+  },
+  {
+    id: 5,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345708255-005_02TT39.jpeg",
+    alt: "Property image 5",
+    category: ""
+  },
+  {
+    id: 6,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345709127-006_10.jpg",
+    alt: "Property image 6",
+    category: ""
+  },
+  {
+    id: 7,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345709931-007_11.jpg",
+    alt: "Property image 7",
+    category: ""
+  },
+  {
+    id: 8,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345711007-008_13.jpg",
+    alt: "Property image 8",
+    category: ""
+  },
+  {
+    id: 9,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345711375-009_9.jpg",
+    alt: "Property image 9",
+    category: ""
+  },
+  {
+    id: 10,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345711768-010_03TT39.jpg",
+    alt: "Property image 10",
+    category: ""
+  },
+  {
+    id: 11,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345712444-011_04TT39.jpg",
+    alt: "Property image 11",
+    category: ""
+  },
+  {
+    id: 12,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345713113-012_05TT39.jpg",
+    alt: "Property image 12",
+    category: ""
+  },
+  {
+    id: 13,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345713692-013_06202025_170154_2.jpg",
+    alt: "Property image 13",
+    category: ""
+  },
+  {
+    id: 14,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345714419-014_07TT39.JPG",
+    alt: "Property image 14",
+    category: ""
+  },
+  {
+    id: 15,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345715153-015_06202025_170311_2.jpg",
+    alt: "Property image 15",
+    category: ""
+  },
+  {
+    id: 16,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345715747-016_06202025_170239_2.jpg",
+    alt: "Property image 16",
+    category: ""
+  },
+  {
+    id: 17,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345716466-017_06202025_170334_2.jpg",
+    alt: "Property image 17",
+    category: ""
+  },
+  {
+    id: 18,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345717025-018_10TT39.jpg",
+    alt: "Property image 18",
+    category: ""
+  },
+  {
+    id: 19,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345717487-019_11TT39.jpg",
+    alt: "Property image 19",
+    category: ""
+  },
+  {
+    id: 20,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345717970-020_09TT39.JPG",
+    alt: "Property image 20",
+    category: ""
+  },
+  {
+    id: 21,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345718487-021_12TT39.jpg",
+    alt: "Property image 21",
+    category: ""
+  },
+  {
+    id: 22,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345719123-022_13TT39.jpg",
+    alt: "Property image 22",
+    category: ""
+  },
+  {
+    id: 23,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345719644-023_16TT39.jpg",
+    alt: "Property image 23",
+    category: ""
+  },
+  {
+    id: 24,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345720070-024_17TT39.jpg",
+    alt: "Property image 24",
+    category: ""
+  },
+  {
+    id: 25,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345720608-025_18TT39.jpg",
+    alt: "Property image 25",
+    category: ""
+  },
+  {
+    id: 26,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345721118-026_19TT39.jpg",
+    alt: "Property image 26",
+    category: ""
+  },
+  {
+    id: 27,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345721686-027_20TT39.jpg",
+    alt: "Property image 27",
+    category: ""
+  },
+  {
+    id: 28,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345722409-028_21TT39.jpg",
+    alt: "Property image 28",
+    category: ""
+  },
+  {
+    id: 29,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345722929-029_22TT39.jpg",
+    alt: "Property image 29",
+    category: ""
+  },
+  {
+    id: 30,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345723449-030_23TT39.jpg",
+    alt: "Property image 30",
+    category: ""
+  },
+  {
+    id: 31,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345723828-031_24TT39.jpg",
+    alt: "Property image 31",
+    category: ""
+  },
+  {
+    id: 32,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345724275-032_25TT39.jpg",
+    alt: "Property image 32",
+    category: ""
+  },
+  {
+    id: 33,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345724685-033_26TT39.jpg",
+    alt: "Property image 33",
+    category: ""
+  },
+  {
+    id: 34,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345725141-034_27TT39.jpg",
+    alt: "Property image 34",
+    category: ""
+  },
+  {
+    id: 35,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345725657-035_28TT39.jpg",
+    alt: "Property image 35",
+    category: ""
+  },
+  {
+    id: 36,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345726080-036_29TT39.jpg",
+    alt: "Property image 36",
+    category: ""
+  },
+  {
+    id: 37,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345726474-037_30TT39.jpg",
+    alt: "Property image 37",
+    category: ""
+  },
+  {
+    id: 38,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345726863-038_31TT39.jpg",
+    alt: "Property image 38",
+    category: ""
+  },
+  {
+    id: 39,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345727300-039_32TT39.JPG",
+    alt: "Property image 39",
+    category: ""
+  },
+  {
+    id: 40,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345727780-040_33TT39.JPG",
+    alt: "Property image 40",
+    category: ""
+  },
+  {
+    id: 41,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345728287-041_36TT39.JPG",
+    alt: "Property image 41",
+    category: ""
+  },
+  {
+    id: 42,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345729084-042_37TT39.JPG",
+    alt: "Property image 42",
+    category: ""
+  },
+  {
+    id: 43,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345730070-043_38TT39.JPG",
+    alt: "Property image 43",
+    category: ""
+  },
+  {
+    id: 44,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345731022-044_39TT39.JPG",
+    alt: "Property image 44",
+    category: ""
+  },
+  {
+    id: 45,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345731944-045_35TT39.jpeg",
+    alt: "Property image 45",
+    category: ""
+  },
+  {
+    id: 46,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345732450-046_34TT39.jpeg",
+    alt: "Property image 46",
+    category: ""
+  },
+  {
+    id: 47,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345732984-047_6.jpeg",
+    alt: "Property image 47",
+    category: ""
+  },
+  {
+    id: 48,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345733603-048_7.jpeg",
+    alt: "Property image 48",
+    category: ""
+  },
+  {
+    id: 49,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345734266-049_8.jpeg",
+    alt: "Property image 49",
+    category: ""
+  },
+  {
+    id: 50,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345734987-050_3.jpeg",
+    alt: "Property image 50",
+    category: ""
+  },
+  {
+    id: 51,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345735263-051_4.jpeg",
+    alt: "Property image 51",
+    category: ""
+  },
+  {
+    id: 52,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345735655-052_5.jpg",
+    alt: "Property image 52",
+    category: ""
+  },
+  {
+    id: 53,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345736032-053_2.jpeg",
+    alt: "Property image 53",
+    category: ""
+  },
+  {
+    id: 54,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345736718-054_1.jpeg",
+    alt: "Property image 54",
+    category: ""
+  },
+  {
+    id: 55,
+    src: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345737489-055_12.jpeg",
+    alt: "Property image 55",
+    category: ""
+  }
+];
 
 // heroVideo configuration
-export const heroVideo = {
-    url: "https://www.yudiz.com/codepen/studio-r/bg-video.mp4",
-    type: "video/mp4",
-    autoplay: true,
-    loop: true,
-    muted: true,
-    playsInline: true
-  };
+// export const heroVideo = {
+//   url: "",
+//   type: "video/mp4",
+//   autoplay: true,
+//   loop: true,
+//   muted: true,
+//   playsInline: true
+// };
 
-// homeShowcaseSections configuration
+// homeShowcaseSections configuration  
 export const homeShowcaseSections = [
-    {
-      id: "section1",
-      title: "Glass-Framed Living",
-      description: "An airy open-concept living and dining space wrapped in true floor-to-ceiling windows delivers dramatic light, clean sightlines, and effortless flow for everyday comfort and entertaining.",
-      image: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004643105-2912-80 John St-11.jpg"
-    },
-    {
-      id: "section2",
-      title: "Culinary Haven",
-      description: "Custom 2021 kitchen with enlarged island, storage on the seating side, and built-in outlet—perfect for prep, laptops, and hosting—finished with cohesive designer materials and fixtures.",
-      image: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004602781-2912-80 John St-04.jpg",
-      tags: "Custom Kitchen, Island Seating, Modern Fixtures"
-    },
-    {
-      id: "section3",
-      title: "Primary Retreat",
-      description: "Quiet, well-proportioned bedroom offers serene rest with bright southeast light and easy access to a beautifully retiled bathroom featuring modern fixtures and floor-to-ceiling tile.",
-      image: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004609515-2912-80 John St-14.jpg",
-      tags: "Serene Bedroom, Natural Light, Modern Bathroom"
-    },
-    {
-      id: "section4",
-      title: "Productive Workspace",
-      description: "A true den separates work from life—ideal for focused WFH, a guest nook, or reading lounge—without compromising the openness of the main living area.",
-      image: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004643105-2912-80 John St-11.jpg",
-      tags: "Home Office, Flexible Space, Private Den"
-    }
-  ];
+  {
+    id: "section1",
+    title: "2 Bedrooms",
+    description: "The kitchen and the high-end quality of the renovation finishings ",
+    image: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345703648-001_0_mc3yc00gq9wx665lup.jpg"
+  },
+  {
+    id: "section2",
+    title: "2 Bathrooms",
+    description: "",
+    image: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345704688-002_14.jpeg"
+  },
+  {
+    id: "section3",
+    title: "1,205 sq ft",
+    description: "Spacious living area with ample room for your lifestyle",
+    image: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345705945-003_15.jpeg"
+  },
+  {
+    id: "section4",
+    title: "$749,900",
+    description: "",
+    image: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345707061-004_01TT39.jpeg"
+  }
+];
 
 // neighborhood configuration
 export const neighborhood = {
-    name: "Entertainment District",
-    city: "Toronto",
-    description: "Toronto's Entertainment District is the city's premier destination for culture, dining, and urban living, known for its vibrant atmosphere and world-class amenities.",
-    highlights: [
-      "Steps to theaters, dining, and entertainment venues",
-      "Direct access to PATH underground walkway",
-      "TTC subway and streetcar connections",
-      "Walk to financial district and shopping",
-      "Vibrant urban lifestyle with 95/100 walk score"
-    ]
-  };
+  name: "Toronto",
+  city: "Toronto",
+  description: "Toronto's premier destination for culture, dining, and urban living.",
+  highlights: [
+    "Steps to theaters, dining, and entertainment venues",
+    "Direct access to PATH underground walkway",
+    "TTC subway and streetcar connections",
+    "Walk to financial district and shopping",
+    "Vibrant urban lifestyle with excellent walk score"
+  ]
+};
 
 // neighborhoodAmenities configuration
 export const neighborhoodAmenities = [
-    {
-      id: 1,
-      name: "Rabba Fine Foods King West",
-      distance: "0.2 miles",
-      category: "shopping",
-      icon: "ShoppingBag"
-    },
-    {
-      id: 2,
-      name: "David Pecaut Square",
-      distance: "0.1 miles",
-      category: "recreation",
-      icon: "Leaf"
-    },
-    {
-      id: 3,
-      name: "Ogden Junior Public School (TDSB)",
-      distance: "0.6 miles",
-      category: "education",
-      icon: "School"
-    },
-    {
-      id: 4,
-      name: "Byblos Toronto",
-      distance: "0.2 miles",
-      category: "dining",
-      icon: "Wine"
-    },
-    {
-      id: 5,
-      name: "Momofuku Noodle Bar",
-      distance: "0.4 miles",
-      category: "dining",
-      icon: "Utensils"
-    },
-    {
-      id: 6,
-      name: "St Andrew Station (Line 1)",
-      distance: "0.4 miles",
-      category: "transportation",
-      icon: "Train"
-    },
-    {
-      id: 7,
-      name: "The Adelaide Club",
-      distance: "0.5 miles",
-      category: "recreation",
-      icon: "Users"
-    },
-    {
-      id: 8,
-      name: "PATH Financial District",
-      distance: "0.4 miles",
-      category: "business",
-      icon: "Building"
-    }
-  ];
+  {
+    id: 1,
+    name: "Local Grocery Store",
+    distance: "0.2 miles",
+    category: "shopping",
+    icon: "ShoppingBag"
+  },
+  {
+    id: 2,
+    name: "Nearby Park",
+    distance: "0.1 miles", 
+    category: "recreation",
+    icon: "Leaf"
+  },
+  {
+    id: 3,
+    name: "Public School",
+    distance: "0.6 miles",
+    category: "education", 
+    icon: "School"
+  },
+  {
+    id: 4,
+    name: "Fine Dining",
+    distance: "0.2 miles",
+    category: "dining",
+    icon: "Wine"
+  },
+  {
+    id: 5,
+    name: "Casual Dining",
+    distance: "0.4 miles",
+    category: "dining",
+    icon: "Utensils"
+  },
+  {
+    id: 6,
+    name: "Transit Station",
+    distance: "0.4 miles",
+    category: "transportation",
+    icon: "Train"
+  }
+];
 
 // neighborhoodStats configuration
 export const neighborhoodStats = [
-    {
-      id: 1,
-      title: "Walk Score",
-      value: "95/100",
-      caption: "Walker's Paradise",
-      icon: "BadgeCheck",
-      color: "bg-green-500"
-    },
-    {
-      id: 2,
-      title: "Transit Score",
-      value: "94/100",
-      caption: "Excellent Transit",
-      icon: "Compass",
-      color: "bg-blue-500"
-    },
-    {
-      id: 3,
-      title: "School Rating",
-      value: "8/10",
-      caption: "Great Schools",
-      icon: "School",
-      color: "bg-indigo-500"
-    },
-    {
-      id: 4,
-      title: "Commute Time",
-      value: "8 min",
-      caption: "To Financial District",
-      icon: "Clock",
-      color: "bg-amber-500"
-    }
-  ];
+  {
+    id: 1,
+    title: "Walk Score",
+    value: "95/100",
+    caption: "Walker's Paradise",
+    icon: "BadgeCheck",
+    color: "bg-green-500"
+  },
+  {
+    id: 2,
+    title: "Transit Score", 
+    value: "94/100",
+    caption: "Excellent Transit",
+    icon: "Compass",
+    color: "bg-blue-500"
+  },
+  {
+    id: 3,
+    title: "School Rating",
+    value: "8/10", 
+    caption: "Great Schools",
+    icon: "School",
+    color: "bg-indigo-500"
+  },
+  {
+    id: 4,
+    title: "Commute Time",
+    value: "8 min",
+    caption: "To Financial District",
+    icon: "Clock", 
+    color: "bg-amber-500"
+  }
+];
 
 // openHouseDetails configuration
 export const openHouseDetails = {
-    date: "",
-    startTime: "",
-    endTime: "",
-    registerLink: "/openhouse",
-    host: "Arslan Ahmed",
-    phone: "(416) 655-4850",
-    email: "info@80john.com",
-    ctaText: "RSVP for Open House"
-  };
+  date: "January 13, 2026",
+  startTime: "2:00",
+  endTime: "4:00",
+  registerLink: "/openhouse",
+  host: "Joseph Bitton",
+  phone: "4168018600",
+  email: "josephbitton1@gmail.com",
+  ctaText: "RSVP for Open House"
+};
 
 // packageItems configuration
 export const packageItems = [
-    {
-      id: 1,
-      title: "Detailed Floor Plans",
-      description: "Complete architectural layouts showing the 2 bedroom, 2 bathroom + den configuration with precise measurements and optimal room flow.",
-      icon: "FileText"
-    },
-    {
-      id: 2,
-      title: "Recent Neighborhood Sales",
-      description: "Comparative market analysis of recent Condo Apartment sales in the Entertainment District, showing strong demand for larger, renovated suites.",
-      icon: "BarChart2"
-    },
-    {
-      id: 3,
-      title: "School District Information",
-      description: "Comprehensive overview of TDSB and TCDSB options nearby, including Ogden Junior Public School and local secondary programs with ratings and enrollment details.",
-      icon: "GraduationCap"
-    },
-    {
-      id: 4,
-      title: "Property Feature List",
-      description: "Detailed inventory highlighting true floor-to-ceiling windows without bulkheads, cohesive $90K 2021 kitchen and bath renovation, and enlarged island with seating-side storage and built-in outlet.",
-      icon: "CheckSquare"
-    },
-    {
-      id: 5,
-      title: "Utility Cost Estimates",
-      description: "Estimated monthly utility expenses averaging $180 based on 1,249 sq ft, LED lighting, and efficient in-suite HVAC with programmable thermostat.",
-      icon: "DollarSign"
-    },
-    {
-      id: 6,
-      title: "Local Amenities Guide",
-      description: "Curated directory of shopping, dining, recreation, and entertainment within walking distance of 80 John St #2912, including insider recommendations.",
-      icon: "Map"
-    },
-    {
-      id: 7,
-      title: "Home Inspection Tips",
-      description: "Professional guidance focusing on the 2021 custom kitchen and fully retiled bathrooms, plus key mechanical and building systems to evaluate in a condo tower.",
-      icon: "Search"
-    },
-    {
-      id: 8,
-      title: "Financing Resources",
-      description: "Mortgage pre-approval resources, down payment strategies, and competitive financing options for the $1,495,000 purchase price range.",
-      icon: "CreditCard"
-    }
-  ];
+  {
+    id: 1,
+    title: "Detailed Floor Plans",
+    description: "Complete architectural layouts showing the 2 bedroom, 2 bathroom configuration with precise measurements.",
+    icon: "FileText"
+  },
+  {
+    id: 2,
+    title: "Recent Neighborhood Sales",
+    description: "Comparative market analysis of recent Condo Apartment sales in Toronto.",
+    icon: "BarChart2"
+  },
+  {
+    id: 3,
+    title: "School District Information", 
+    description: "Public School District: Toronto District School Board (TDSB).\nCatholic School District: Toronto Catholic District School Board (TCDSB). \n\nDesignated Local Schools \nElementary: Faywood Arts-Based Curriculum School.\nSecondary: William Lyon Mackenzie Collegiate Institute (typical for the Clanton Park/North York area)",
+    icon: "GraduationCap"
+  },
+  {
+    id: 4,
+    title: "Property Inspection Report",
+    description: "Professional assessment highlighting recent upgrades and maintenance history.",
+    icon: "CheckSquare"
+  },
+  {
+    id: 5,
+    title: "Financing Options Guide",
+    description: "Current mortgage rates and financing programs available for this price range.",
+    icon: "DollarSign"
+  },
+  {
+    id: 6,
+    title: "Neighborhood Amenities Map",
+    description: "Interactive guide to nearby amenities and transportation options.",
+    icon: "Map"
+  }
+];
 
 // property configuration
 export const property = {
-    name: "80 John St",
-    address: {
-      street: "88 John St #2912",
-      city: "Toronto",
-      state: "ON",
-      zip: "M5V 3X4",
-      country: "Canada"
-    },
-    price: "$1,495,000",
-    beds: 2,
-    baths: 2,
-    sqft: 1249,
-    lotSize: "30 x 120 ft",
-    yearBuilt: 2010,
-    status: "For Sale",
-    description: "Sophisticated condo apartment offering turnkey urban luxury, dramatic floor-to-ceiling glazing without bulkheads, cohesive 2021 renovations, and walk-to-everything convenience in Toronto's Entertainment District.",
-    shortDescription: "Turnkey luxury condo in Toronto's Entertainment District with parking",
-    propertyType: "Condo Apartment",
-    heroImage: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004589506-2912-80 John St-01.jpg",
-    heroCaption: "Turnkey luxury condo in Toronto's Entertainment District with parking",
-    mapLocation: {
-      lat: 43.7,
-      lng: -79.4
-    },
-    virtualTourAvailable: true,
-    virtualTourUrl: "https://tours.openhousemedia.ca/sites/80-john-st-2912-toronto-on-m5v-3x4-15850296/branded"
-  };
+  name: "#415-701 Sheppard Ave West",
+  address: {
+    street: "#415-701 Sheppard Ave West",
+    city: "Toronto",
+    state: "Ontario",
+    zip: "M3H 2S7",
+    country: "Canada"
+  },
+  price: "$749,900",
+  beds: 2,
+  baths: 2,
+  sqft: 1205,
+  lotSize: "30 x 120 ft",
+  yearBuilt: 2010,
+  propertyType: "Condo Apartment",
+  status: "For Sale",
+  description: "South-facing balcony overlooking a greenbelt, and you can see the CN Tower from the balcony ",
+  shortDescription: "2 BEDS + 2 BATHS",
+  mainFeatures: [],
+  heroImage: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345703648-001_0_mc3yc00gq9wx665lup.jpg",
+  heroCaption: "South Balcony + Chef's Kitchen + Corner Unit = Your Perfect Condo Just Listed!",
+  mapLocation: {
+    lat: 43.6532,
+    lng: -79.3832
+  },
+  virtualTourAvailable: true,
+  virtualTourUrl: "https://www.winsold.com/tour/411706/branded/13839"
+};
 
 // propertyFeatures configuration
 export const propertyFeatures = [
-    {
-      id: 1,
-      title: "Custom-designed kitchen with enlarged island, seating-side cabinet storage, and integrated power outlet for seamless cooking, work, and entertaining",
-      description: "Custom-designed kitchen with enlarged island, seating-side cabinet storage, and integrated power outlet for seamless cooking, work, and entertaining",
-      icon: "CheckCircle"
-    },
-    {
-      id: 2,
-      title: "Open-concept living and dining framed by true floor-to-ceiling glazing for maximum light, bigger views, and dramatic first impressions",
-      description: "Open-concept living and dining framed by true floor-to-ceiling glazing for maximum light, bigger views, and dramatic first impressions",
-      icon: "CheckCircle"
-    },
-    {
-      id: 3,
-      title: "Primary bedroom with generous proportions and bright southeast outlook for calm, comfortable rest",
-      description: "Primary bedroom with generous proportions and bright southeast outlook for calm, comfortable rest",
-      icon: "CheckCircle"
-    },
-    {
-      id: 4,
-      title: "Designer-renovated bathrooms fully retiled floor-to-ceiling with new vanities, fixtures, and toilets for a luxe, cohesive look",
-      description: "Designer-renovated bathrooms fully retiled floor-to-ceiling with new vanities, fixtures, and toilets for a luxe, cohesive look",
-      icon: "CheckCircle"
-    },
-    {
-      id: 5,
-      title: "Functional den offering a quiet, dedicated workspace or guest nook without compromising main living areas",
-      description: "Functional den offering a quiet, dedicated workspace or guest nook without compromising main living areas",
-      icon: "CheckCircle"
-    },
-    {
-      id: 6,
-      title: "Energy-efficient double-pane curtain-wall glazing and predominantly LED lighting for comfort and lower operating costs",
-      description: "Energy-efficient double-pane curtain-wall glazing and predominantly LED lighting for comfort and lower operating costs",
-      icon: "CheckCircle"
-    },
-    {
-      id: 7,
-      title: "Individually controlled in-suite HVAC with programmable thermostat for year-round climate control",
-      description: "Individually controlled in-suite HVAC with programmable thermostat for year-round climate control",
-      icon: "CheckCircle"
-    },
-    {
-      id: 8,
-      title: "Rare no-bulkhead design in principal rooms delivering uninterrupted glass and skyline wow factor",
-      description: "Rare no-bulkhead design in principal rooms delivering uninterrupted glass and skyline wow factor",
-      icon: "CheckCircle"
-    },
-    {
-      id: 9,
-      title: "Consistent, designer-level finish across kitchen and baths elevating the entire home's feel",
-      description: "Consistent, designer-level finish across kitchen and baths elevating the entire home's feel",
-      icon: "CheckCircle"
-    },
-    {
-      id: 10,
-      title: "143 sq ft balcony sized for real outdoor living—dining, lounging, and entertaining",
-      description: "143 sq ft balcony sized for real outdoor living—dining, lounging, and entertaining",
-      icon: "CheckCircle"
-    },
-    {
-      id: 11,
-      title: "Parking and owned locker provide turnkey downtown convenience and storage",
-      description: "Parking and owned locker provide turnkey downtown convenience and storage",
-      icon: "CheckCircle"
-    },
-    {
-      id: 12,
-      title: "Pre-wired for high-speed internet and smart-home ready for easy thermostat, lock, and lighting upgrades",
-      description: "Pre-wired for high-speed internet and smart-home ready for easy thermostat, lock, and lighting upgrades",
-      icon: "CheckCircle"
-    },
-    {
-      id: 13,
-      title: "Southeast exposure balances natural light and privacy without harsh late-afternoon glare",
-      description: "Southeast exposure balances natural light and privacy without harsh late-afternoon glare",
-      icon: "CheckCircle"
-    },
-    {
-      id: 14,
-      title: "Cohesive 2021 renovation investment (~$90K) minimizing future maintenance and upgrade needs",
-      description: "Cohesive 2021 renovation investment (~$90K) minimizing future maintenance and upgrade needs",
-      icon: "CheckCircle"
-    }
-  ];
+  {
+    id: 1,
+    title: "The center island is movable or removable if the new owner does not want the island, and there is flooring underneath.",
+    description: "The center island is movable or removable if the new owner does not want the island, and there is flooring underneath.",
+    icon: "CheckCircle"
+  },
+  {
+    id: 2,
+    title: "There are two storage lockers included with this unit.",
+    description: "There are two storage lockers included with this unit.",
+    icon: "CheckCircle"
+  },
+  {
+    id: 3,
+    title: "Lots of light, very bright with lots of windows",
+    description: "Lots of light, very bright with lots of windows",
+    icon: "CheckCircle"
+  },
+  {
+    id: 4,
+    title: "South facing walkout balcony",
+    description: "South facing walkout balcony",
+    icon: "CheckCircle"
+  },
+  {
+    id: 5,
+    title: "New engineered flooring",
+    description: "New engineered flooring",
+    icon: "CheckCircle"
+  }
+];
 
 // siteBranding configuration
 export const siteBranding = {
-    logoUrl: "/logo.svg",
-    colors: {
-      primary: "#D9A566"
-    },
-    footer: {
-      copyrightText: "© 2024 80 John St. All rights reserved.",
-      disclaimer: "This website is for informational purposes only. Details are subject to change.",
-      privacyPolicyUrl: ""
-    }
-  };
+  logoUrl: "/logo.svg",
+  colors: {
+    primary: "#D9A566"
+  },
+  footer: {
+    copyrightText: "© 2025 #415-701 Sheppard Ave West. All rights reserved.",
+    disclaimer: "This website is for informational purposes only. Details are subject to change.",
+    privacyPolicyUrl: "https://www.torontorealestate4u.com/site/privacy-terms"
+  }
+};
 
 // siteMetadata configuration
 export const siteMetadata = {
-    title: "80 John St #2912 | Turnkey Luxury Condo | Downtown Toronto",
-    description: "Turnkey 2+Den condo with no-bulkhead floor-to-ceiling windows, $90K 2021 renovation, 143 sf balcony, and parking in the Entertainment District. Book a tour.",
-    keywords: "condo apartment, Toronto real estate, Entertainment District, luxury condo, floor-to-ceiling windows, 2 bed plus den, parking included, virtual tour, $1,495,000",
-    ogImage: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1757004589506-2912-80 John St-01.jpg",
-    ogType: "website",
-    twitterCard: "summary_large_image",
-    canonical: "https://80john.com"
-  };
+  title: "#415-701 Sheppard Ave West | Condo Apartment | Toronto",
+  description: "South Balcony + Chef's Kitchen + Corner Unit = Your Perfect Condo Just Listed!",
+  keywords: "condo apartment, Toronto real estate, 2 bedroom, 2 bathroom, $749,900",
+  ogImage: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768345703648-001_0_mc3yc00gq9wx665lup.jpg",
+  ogType: "website",
+  twitterCard: "summary_large_image",
+  canonical: "https://#415-701sheppardavewest.com"
+};
 
 // formAutomations configuration
 export const formAutomations = {
-  crmLeadParsingEmail: '',
-  sgApiKey: ''
+  crmLeadParsingEmail: "",
+  sgApiKey: ""
 };
 
 // formQuestions configuration
@@ -461,29 +671,28 @@ export const formQuestions = [
 
 // testimonials configuration
 export const testimonials = [
-    {
-      id: 1,
-      name: "David Chen",
-      role: "Recent Homebuyer",
-      content: "Arslan Ahmed guided us to a suite that feels bigger than the square footage. The true floor-to-ceiling windows and cohesive renovation were exactly what we wanted—plus parking in the heart of the city.",
-      avatar: "https://randomuser.me/api/portraits/men/22.jpg",
-      rating: 5
-    },
-    {
-      id: 2,
-      name: "Jennifer Liu",
-      role: "Interior Designer",
-      content: "The rare no-bulkhead glazing and consistent materials across the kitchen and baths show thoughtful design. The enlarged island with built-in power is both elegant and incredibly functional. Arslan presented every detail clearly.",
-      avatar: "https://randomuser.me/api/portraits/women/44.jpg",
-      rating: 5
-    },
-    {
-      id: 3,
-      name: "Mark Williams",
-      role: "Neighborhood Resident",
-      content: "Living in the Entertainment District, you appreciate walkability to theatres, TTC, and PATH. Suites like this, with real outdoor space and parking, are special. Arslan knows how to highlight what matters here.",
-      avatar: "https://randomuser.me/api/portraits/men/35.jpg",
-      rating: 5
-    }
-  ];
-
+  {
+    id: 1,
+    name: "David Chen",
+    role: "Recent Homebuyer", 
+    content: "Joseph Bitton provided exceptional service and found us exactly what we were looking for in Toronto.",
+    avatar: "https://randomuser.me/api/portraits/men/22.jpg",
+    rating: 5
+  },
+  {
+    id: 2,
+    name: "Jennifer Liu",
+    role: "Interior Designer",
+    content: "The attention to detail and quality of finishes in this property is outstanding. Joseph Bitton presented every detail clearly.",
+    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
+    rating: 5
+  },
+  {
+    id: 3,
+    name: "Mark Williams", 
+    role: "Neighborhood Resident",
+    content: "Living in this area, you appreciate the convenience and lifestyle. Joseph Bitton knows the market incredibly well.",
+    avatar: "https://randomuser.me/api/portraits/men/35.jpg",
+    rating: 5
+  }
+];
