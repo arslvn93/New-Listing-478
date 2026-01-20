@@ -1,7 +1,7 @@
 /**
  * Site Configuration
  * This file contains all configurable content for the website
- * Last updated: 2026-01-19T14:59:11.006Z
+ * Last updated: 2026-01-20T14:15:06.460Z
  */
 
 // contactInfo configuration
@@ -396,17 +396,16 @@ export const homeShowcaseSections = [
   }
 ];
 
-// neighborhood configuration
 export const neighborhood = {
-  name: "Toronto",
+  name: "Clanton Park",
   city: "Toronto",
-  description: "Toronto's premier destination for culture, dining, and urban living.",
+  description: "Clanton Park in Toronto offers a balanced mix of culture, cuisine and convenience with easy TTC access and nearby cultural destinations. Residents benefit from diverse dining options and accessible green spaces such as Earl Bales Park, plus nearby amenities including the Aga Khan Museum and Sheppard Centre. The neighbourhood is well-suited to professionals seeking modern North York workspaces and families looking for parkland and transit connections.",
   highlights: [
-    "Steps to theaters, dining, and entertainment venues",
-    "Direct access to PATH underground walkway",
-    "TTC subway and streetcar connections",
-    "Walk to financial district and shopping",
-    "Vibrant urban lifestyle with excellent walk score"
+    "Convenient subway access at Sheppard-Yonge Station for easy city exploration",
+    "Proximity to Aga Khan Museum, featuring cultural exhibits and parks",
+    "Nearby Sheppard Centre with diverse food court options and shopping",
+    "North York neighbourhood offering modern workspaces and vibrant local amenities",
+    "Close to Earl Bales Park for hiking, playgrounds and outdoor recreation"
   ]
 };
 
@@ -414,45 +413,59 @@ export const neighborhood = {
 export const neighborhoodAmenities = [
   {
     id: 1,
-    name: "Local Grocery Store",
-    distance: "0.2 miles",
+    name: "Sheppard Centre",
+    distance: "",
     category: "shopping",
     icon: "ShoppingBag"
   },
   {
     id: 2,
-    name: "Nearby Park",
-    distance: "0.1 miles", 
+    name: "Earl Bales Park",
+    distance: "",
     category: "recreation",
     icon: "Leaf"
   },
   {
     id: 3,
-    name: "Public School",
-    distance: "0.6 miles",
-    category: "education", 
+    name: "Aga Khan Museum",
+    distance: "",
+    category: "education",
     icon: "School"
   },
   {
     id: 4,
-    name: "Fine Dining",
-    distance: "0.2 miles",
+    name: "WonWon Time",
+    distance: "",
     category: "dining",
-    icon: "Wine"
+    icon: "Coffee"
   },
   {
     id: 5,
-    name: "Casual Dining",
-    distance: "0.4 miles",
+    name: "Chi's Kitchen",
+    distance: "",
     category: "dining",
     icon: "Utensils"
   },
   {
     id: 6,
-    name: "Transit Station",
-    distance: "0.4 miles",
+    name: "Sheppard Ave West at Bryant St West Side (bus stop)",
+    distance: "",
     category: "transportation",
-    icon: "Train"
+    icon: "Car"
+  },
+  {
+    id: 7,
+    name: "Rodney The Tree",
+    distance: "",
+    category: "recreation",
+    icon: "Users"
+  },
+  {
+    id: 8,
+    name: "North York modern workspaces",
+    distance: "",
+    category: "business",
+    icon: "Wifi"
   }
 ];
 
@@ -461,34 +474,26 @@ export const neighborhoodStats = [
   {
     id: 1,
     title: "Walk Score",
-    value: "95/100",
-    caption: "Walker's Paradise",
+    value: "82/100",
+    caption: "Very Walkable",
     icon: "BadgeCheck",
     color: "bg-green-500"
   },
   {
     id: 2,
-    title: "Transit Score", 
-    value: "94/100",
-    caption: "Excellent Transit",
+    title: "Transit Score",
+    value: "62/100",
+    caption: "Good Transit",
     icon: "Compass",
     color: "bg-blue-500"
   },
   {
     id: 3,
-    title: "School Rating",
-    value: "8/10", 
-    caption: "Great Schools",
-    icon: "School",
+    title: "Bike Score",
+    value: "53/100",
+    caption: "Bikeable",
+    icon: "Bicycle",
     color: "bg-indigo-500"
-  },
-  {
-    id: 4,
-    title: "Commute Time",
-    value: "8 min",
-    caption: "To Financial District",
-    icon: "Clock", 
-    color: "bg-amber-500"
   }
 ];
 
